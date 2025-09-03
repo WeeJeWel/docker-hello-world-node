@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+  hello-world-node:
+    image: ghcr.io/weejewel/hello-world-node:latest
+    network_mode: host
