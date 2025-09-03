@@ -5,10 +5,10 @@ This is a simple Docker container, to test a Node.js webserver in a Docker envir
 ## Usage
 
 ```bash
-$ docker run --network host weejewel/hello-world-node
-$ docker run -p 3000:3000 weejewel/hello-world-node
-$ docker run -p 3001:3000 weejewel/hello-world-node
-$ docker run -p 3000:4000 -e PORT=4000 weejewel/hello-world-node
+$ docker run --network host ghcr.io/weejewel/hello-world-node
+$ docker run -p 3000:3000 ghcr.io/weejewel/hello-world-node
+$ docker run -p 3001:3000 ghcr.io/weejewel/hello-world-node
+$ docker run -p 3000:4000 -e PORT=4000 ghcr.io/weejewel/hello-world-node
 ```
 
 ## Environment Variables
