@@ -37,4 +37,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: weejewel/hello-world-node:latest
+          tags: ghcr.io/weejewel/hello-world-node:latest
